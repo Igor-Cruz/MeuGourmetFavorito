@@ -27,16 +27,16 @@ const Index = () => {
           </li>
 
           <li>
-            <a href="#Login" target="_blank">Login</a>
+            <a href="#" target="_blank">Login</a>
           </li>
 
         </ul>
       </nav>
       <main>
-        <section id='Home' >
-          <div className='h-full bg-slate-300'>
-            <div>
-              <h1>Aqui temos os melhores chocolates da cidade.</h1>
+        <section id='Home' className='h-screen' >
+          <div  >
+            <div >
+              <h1 className='text-red-600'>Aqui temos os melhores chocolates da cidade.</h1>
               <p> </p>
             </div>
             <div>
@@ -45,7 +45,7 @@ const Index = () => {
           </div>
 
         </section>
-        <section id='Pedido' className='w-full'>
+        <section id='Pedido' className='h-screen'>
           <div>
             <h2>Realize aqui o seu pedido:</h2>
             <form>
@@ -54,7 +54,7 @@ const Index = () => {
           </div>
 
         </section>
-        <section id='Contato' className='w-full'>
+        <section id='Contato' className='h-screen'>
           <div>
             <h2>Entre em contato conosco através:</h2>
             <div>
@@ -67,7 +67,7 @@ const Index = () => {
       <footer>
 
       </footer>
-    </body>
+    </body >
   )
 }
 
