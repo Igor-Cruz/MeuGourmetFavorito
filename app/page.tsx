@@ -4,10 +4,8 @@ import reat from 'react'
 const Index = () => {
   return (
     <body>
-      <header className="bg-pink-300">
-        <section>
-          <h1 className='text-gray-200'>Meu <span className='text-pink-600'>Gourmet</span> Favorito</h1>
-        </section>
+      <header className="bg-pink-300 text-center">
+        <h1 className='text-gray-200'>Meu <span className='text-pink-600'>Gourmet</span> Favorito</h1>
       </header>
       <nav>
         <ul>
