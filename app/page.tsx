@@ -4,12 +4,9 @@ import reat from 'react'
 const Index = () => {
   return (
     <body>
-      <header className="cabeçalho">
-        <section className="logo">
-          <img src="" alt="logo do Meu Gourmet Favorito"></img>
-        </section>
+      <header className="bg-pink-300">
         <section>
-          <h1 className='text-red-600'>Meu Gourmet Favorito</h1>
+          <h1 className='text-gray-200'>Meu <span className='text-pink-600'>Gourmet</span> Favorito</h1>
         </section>
       </header>
       <nav>
@@ -27,7 +24,7 @@ const Index = () => {
           </li>
 
           <li>
-            <a href="#" target="_blank">Login</a>
+            <a href="login.tsx" target="_blank">Login</a>
           </li>
 
         </ul>
