@@ -4,7 +4,7 @@ import reat from 'react'
 const Index = () => {
   return (
     <body>
-      <header className="bg-pink-300 text-center">
+      <header className="bg-pink-300 text-center p-4">
         <h1 className='text-gray-200'>Meu <span className='text-pink-600'>Gourmet</span> Favorito</h1>
       </header>
       <nav>
@@ -59,8 +59,10 @@ const Index = () => {
 
         </section>
       </main>
-      <footer className=' bg-slate-300'>
-
+      <footer className=' bg-slate-300 p-4 text-center text-red-600'>
+        <div>
+          <h1><a href='https://www.linkedin.com/in/igor-cruz-ti/' target="_blank">Desenvolvido no curso DevPleno por:Igor Cruz</a> </h1>
+        </div>
       </footer>
     </body >
   )
