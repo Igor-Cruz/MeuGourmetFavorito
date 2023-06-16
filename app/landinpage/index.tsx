@@ -8,8 +8,11 @@ export default function Landinpage() {
 
     <>
       <Header />
+      <div className='bg-gradient-to-r from-gray-800 to-gray-850 h-0.5'></div>
       <Navbar />
       <main>
+        <div className='bg-gradient-to-r from-purple-500 to-pink-500 h-0.5'>
+        </div>
         <section id='Home' className='h-screen bg-pink-300' >
           <div  >
             <div >
@@ -22,6 +25,8 @@ export default function Landinpage() {
           </div>
 
         </section>
+        <div className='bg-gradient-to-r from-purple-500 to-pink-500 h-0.5'>
+        </div>
         <section id='Pedido' className='h-screen bg-slate-300'>
           <div>
             <h2>Realize aqui o seu pedido:</h2>
@@ -31,6 +36,8 @@ export default function Landinpage() {
           </div>
 
         </section>
+        <div className='bg-gradient-to-r from-purple-500 to-pink-500 h-0.5'>
+        </div>
         <section id='Contato' className='h-screen bg-pink-300'>
           <div>
             <h2>Entre em contato conosco através:</h2>
@@ -40,6 +47,8 @@ export default function Landinpage() {
           </div>
 
         </section>
+        <div className='bg-gradient-to-r from-purple-500 to-pink-500 h-0.5'>
+        </div>
       </main>
       <Footer />
 
