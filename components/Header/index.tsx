@@ -1,8 +1,8 @@
 export default function Header() {
   return (
 
-    <header className='text-center bg-slate-300 '>
-      <h1 className='text-gray-200 text-center'>Meu Gourmet Favorito</h1>
+    <header className=' bg-slate-300 '>
+      <h1 className=' text-center p-4'>Meu Gourmet Favorito</h1>
     </header>
 
 
