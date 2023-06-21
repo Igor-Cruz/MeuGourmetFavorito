@@ -10,10 +10,10 @@ export default function Landinpage() {
       <Header />
       <div className='bg-gradient-to-r from-gray-800 to-gray-850 h-0.5'></div>
       <Navbar />
+      <div className='bg-gradient-to-r from-purple-500 to-pink-500 h-0.5'>
+      </div>
       <main>
-        <div className='bg-gradient-to-r from-purple-500 to-pink-500 h-0.5'>
-        </div>
-        <section id='Home' className='h-screen bg-pink-300' >
+        <section id='Home' className='h-screen ' >
           <div  >
             <div >
               <h1 className='text-red-600 text-center '>Aqui temos os melhores chocolates da cidade.</h1>
