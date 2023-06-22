@@ -16,7 +16,7 @@ export default function Landinpage() {
         <section id='Home' className='h-screen bg-pink-300' >
           <div  >
             <div >
-              <h1 className='text-slate-800 text-center '>Aqui temos os melhores chocolates da cidade.</h1>
+              <h1 className='text-slate-800 text-center p-4 '>Aqui temos os melhores chocolates da cidade.</h1>
               <p> </p>
             </div>
             <div>
@@ -29,7 +29,7 @@ export default function Landinpage() {
         </div>
         <section id='Pedido' className='h-screen bg-pink-400'>
           <div>
-            <h2 className='text-center text-slate-800'>Realize aqui o seu pedido:</h2>
+            <h2 className='text-center text-slate-800 p-4'>Realize aqui o seu pedido:</h2>
             <form>
 
             </form>
@@ -40,7 +40,7 @@ export default function Landinpage() {
         </div>
         <section id='Contato' className='h-screen bg-pink-500'>
           <div>
-            <h2 className='text-center text-slate-800'>Entre em contato conosco através:</h2>
+            <h2 className='text-center text-slate-800 p-4'>Entre em contato conosco através:</h2>
             <div>
 
             </div>
