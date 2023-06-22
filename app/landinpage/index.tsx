@@ -13,10 +13,10 @@ export default function Landinpage() {
       <div className='bg-gradient-to-r from-purple-500 to-pink-500 h-0.5'>
       </div>
       <main>
-        <section id='Home' className='h-screen ' >
+        <section id='Home' className='h-screen bg-pink-300' >
           <div  >
             <div >
-              <h1 className='text-red-600 text-center '>Aqui temos os melhores chocolates da cidade.</h1>
+              <h1 className='text-slate-800 text-center '>Aqui temos os melhores chocolates da cidade.</h1>
               <p> </p>
             </div>
             <div>
@@ -27,9 +27,9 @@ export default function Landinpage() {
         </section>
         <div className='bg-gradient-to-r from-purple-500 to-pink-500 h-0.5'>
         </div>
-        <section id='Pedido' className='h-screen bg-slate-300'>
+        <section id='Pedido' className='h-screen bg-pink-400'>
           <div>
-            <h2 className='text-center'>Realize aqui o seu pedido:</h2>
+            <h2 className='text-center text-slate-800'>Realize aqui o seu pedido:</h2>
             <form>
 
             </form>
@@ -38,9 +38,9 @@ export default function Landinpage() {
         </section>
         <div className='bg-gradient-to-r from-purple-500 to-pink-500 h-0.5'>
         </div>
-        <section id='Contato' className='h-screen bg-pink-300'>
+        <section id='Contato' className='h-screen bg-pink-500'>
           <div>
-            <h2 className='text-center'>Entre em contato conosco através:</h2>
+            <h2 className='text-center text-slate-800'>Entre em contato conosco através:</h2>
             <div>
 
             </div>

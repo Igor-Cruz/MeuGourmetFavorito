@@ -2,8 +2,8 @@ import Link from "next/link"
 
 export default function Navbar() {
   return (
-    <nav >
-      <ul className='bg-slate-300 '>
+    <nav className='bg-gray-300 text-slate-800 '>
+      <ul className="justify-items-end">
 
         <li >
           <Link href='#Home'>Home</Link>
